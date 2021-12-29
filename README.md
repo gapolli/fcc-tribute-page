@@ -1,5 +1,5 @@
 # freeCodeCamp's Tribute Page
-Tribute page design for freeCodeCamp's Responsive Web Dage certification
+Tribute page design for freeCodeCamp's Responsive Web Page certification
 
 ***
 
