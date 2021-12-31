@@ -1,0 +1,76 @@
+:root {
+    --color-primary: #5146FF;
+    --color-primary-shadow: #281EB3;
+    --color-secondary: #695EFF;
+    --color-complement: #FAE746;
+    --color-complement-shadow: #B3980C;
+    --font-primary: 'Pushster', cursive;
+    --font-secondary: 'Roboto', sans-serif;
+    --font-title-size: 5em;
+    --font-footer-size: 1.2em;
+    font-family: var(--font-primary);
+    background-color: var(--color-primary);
+    color: var(--color-complement);
+}
+
+header {
+    background-color: var(--color-secondary);
+    font-size: var(--font-title-size);
+    text-shadow: 5px 5px 5px var(--color-primary);
+    text-align: center;
+}
+
+figure {
+    display: inline-block;
+    margin: 10px auto 10px auto;
+}
+
+figure img {
+    vertical-align: top;
+}
+
+figure figcaption {
+    text-align: center;
+    margin-top: 10px;
+}
+
+article {
+    text-align: justify;
+}
+
+a:link {
+    text-decoration: none;
+    color: var(--color-complement);
+    text-shadow: 2px 2px 2px var(--color-primary-shadow);
+}
+
+a:active,
+a:hover {
+    color: var(--color-complement-shadow);
+    text-shadow: 3px 3px 2px var(--color-primary-shadow);
+}
+
+footer {
+    background-color: var(--color-secondary);
+    font-size: var(--font-footer-size);
+    text-align: center;
+    text-shadow: 2px 2px 2px var(--color-primary);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+#main {
+    background-color: var(--color-primary);
+    font-size: var(--font-main-size);
+    font-family: var(--font-secondary);
+}
+
+#image {
+    box-shadow: 10px 10px 10px var(--color-primary-shadow);
+    display: block;
+    margin: auto;
+    max-width: 50%;
+    border-radius: 10px;
+}
